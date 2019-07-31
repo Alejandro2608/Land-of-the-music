@@ -11,19 +11,19 @@ const Sidebar = ()=>(
    		
    		
    		<ul className="list-unstyled components">
-   			<p>Dummy Heading</p>
+   			<p >Name</p>
    			<li className="active">
-   				<a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" className="dropdown-toggle">Home</a>
+   				<a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" className="dropdown-toggle">PlayList</a>
    				<ul className="collapse list-unstyled" id="homeSubmenu">
 				   
    					<li>
-   						<a href="#">home1</a>
+   						<a href="#">PlayList 1</a>
    					</li>
    					<li>
-   						<a href="#">home2</a>
+   						<a href="#">PlayList 2</a>
    					</li>
    					<li>
-   						<a href="#">home3</a>
+   						<a href="#">PlayList 3</a>
    					</li>
    				</ul> 
    			</li>
